@@ -1,0 +1,43 @@
+$(OPENCV_DIR)\lib
+C:\Program Files\PrimeSense\NiTE2\Lib
+C:\Program Files\OpenNI2\Lib
+C:\Program Files\ViiM2\staticlib
+D:\Office\Projects\boost_1_53_0\libs
+C:\Program Files\ViiM2\lib
+C:\Program Files\QuickTime SDK\Libraries
+C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86
+C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86
+C:\Program Files\Visual Leak Detector\lib\Win32
+$(VCInstallDir)lib
+$(VCInstallDir)atlmfc\lib
+$(WindowsSdkDir)lib
+$(FrameworkSDKDir)\lib
+
+C:\Users\muglikar\Documents\Tests\CV\opencv\build\include
+C:\Program Files\PrimeSense\NiTE2\Include
+C:\Program Files\OpenNI2\Include
+C:\Program Files\ViiM2\include
+D:\Office\Projects\boost_1_53_0
+C:\Program Files\QuickTime SDK\CIncludes
+C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include
+C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Include
+C:\Program Files\Microsoft Visual Studio 10.0\VC\include
+C:\Program Files\Visual Leak Detector\include
+$(VCInstallDir)include
+$(VCInstallDir)atlmfc\include
+$(WindowsSdkDir)include
+$(FrameworkSDKDir)\include
+
+Multi-threaded Debug DLL (/MDd)
+
+Additional: C:\Program Files\OpenNI2\Lib
+
+Linker->Input: 
+OpenNI2.lib
+opencv_core245d.lib
+opencv_imgproc245d.lib
+opencv_highgui245d.lib
+
+Linker->Ignore:
+libcpmtd.lib
+
